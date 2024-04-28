@@ -19,13 +19,13 @@ def division():
     div = int(first_num) / int(second_num)                     
     return div
 
-if operation in ["1", "Addition"]:                             
+if operation in ["1", "Addition", "addition"]:                             
     print ("The sum of " + first_num + " and " + second_num + " is " + str(addition()))
-elif operation in ["2", "Subtraction"]:                        
+elif operation in ["2", "Subtraction", "subtraction"]:                        
     print ("The difference between " + first_num + " and " + second_num + " is " + str(subtraction()))
-elif operation in ["3", "Multiplication"]:
+elif operation in ["3", "Multiplication", "multiplication"]:
     print ("The product of " + first_num + " and " + second_num + " is " + str(multiplication()))
-elif operation in ["4", "Division"]:
+elif operation in ["4", "Division", "division"]:
     print ("The value of " + first_num + " divided by " + second_num + " is " + str(int(division())))
 else:
     print ("Your Selection is invalid")
